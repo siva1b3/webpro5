@@ -1,4 +1,4 @@
-button.sub {
+button.subscribe-button {
   background-color: rgb(201, 0, 0);
   color: white;
   height: 35px;
@@ -9,7 +9,7 @@ button.sub {
   margin-right: 10px;
 }
 
-button.join {
+button.join-button {
   color: #065fd4;
   background-color: white;
   border-color: #065fd4;
@@ -20,11 +20,12 @@ button.join {
   cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
+button.tweet-button {
+  background-color: #1d9bf0;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+  border-radius: 30px;
+}
