@@ -54,9 +54,14 @@ button.tweet-button {
   border: none;
   padding: 10px;
   border-radius: 30px;
-  transition: box-shadow 200ms;
+  transition: box-shadow 200ms, opacity 150ms;
 }
 
 button.tweet-button:hover {
-  box-shadow: 3px 3px 3px rgba(29, 155, 240, 0.7);
+  box-shadow: 3px 3px 3px rgba(29, 155, 240, 0.4);
+}
+
+button.tweet-button:active {
+  box-shadow: 3px 3px 3px rgba(29, 155, 240, 0.4);
+  opacity: 0.6;
 }
