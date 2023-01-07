@@ -7,16 +7,16 @@ button.subscribe-button {
   border-radius: 3px;
   cursor: pointer;
   margin-right: 10px;
-  transition: opacity 600ms, background-color 150ms, color 150ms,
-    font-weight 150ms, border-width 150ms, border-color 150ms,
-    border-style 150ms;
+  transition: opacity 600ms, background-color 120ms, color 120ms,
+    font-weight 120ms, border-width 120ms, border-color 120ms,
+    border-style 120ms;
 }
 
-.subscribe-button:hover {
+button.subscribe-button:hover {
   opacity: 0.7;
 }
 
-.subscribe-button:active {
+button.subscribe-button:active {
   background-color: whitesmoke;
   color: rgb(201, 0, 0);
   font-weight: bold;
