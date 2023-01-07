@@ -9,6 +9,15 @@ button.subscribe-button {
   margin-right: 10px;
 }
 
+.subscribe-button:active {
+  background-color: whitesmoke;
+  color: rgb(201, 0, 0);
+  font-weight: bold;
+  border-width: 2px;
+  border-color: rgb(201, 0, 0);
+  border-style: solid;
+}
+
 button.join-button {
   color: #065fd4;
   background-color: white;
